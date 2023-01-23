@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function changeColor(newColor) {
+            const elem = document.getElementById('para');
+            elem.style.color = newColor;
+          }
+          function  ViuColor(newColor){
+            const elem =  document.getElementById('Sol');
+            elem.style.color = newColor;
+          }
+    </script>
+</head>
+<body>
+   
+    <p id="para">Some text here</p>
+    <button onclick="changeColor('blue');">blue</button>
+    <button onclick="changeColor('red');">red</button>
+    <button onclick="changeColor('yellow');">yellow</button>
+
+
+    <p id="Sol">Mar em alta </p>
+    <button onclick="ViuColor('red');">red</button>
+</body>
+</html>
